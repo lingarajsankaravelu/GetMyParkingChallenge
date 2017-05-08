@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="error_image_width">96dp</dimen>
+    <dimen name="error_image_height">96dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="auth_input_margin_top">8dp</dimen>
+    <dimen name="auth_input_width">240dp</dimen>
+    <dimen name="auth_edit_text_size">20sp</dimen>
+    <dimen name="auth_error_text_size">16sp</dimen>
+    <dimen name="auth_button_text_padding">16dp</dimen>
+    <dimen name="progress_size">48dp</dimen>
+    <dimen name="message_cont_vertical_margin">8dp</dimen>
+    <dimen name="message_cont_text_width">240dp</dimen>
+    <dimen name="message_cont_text">16sp</dimen>
+
+
+
+</resources>

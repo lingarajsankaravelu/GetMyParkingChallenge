@@ -1,0 +1,194 @@
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:comapt="http://schemas.android.com/tools"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="4dp"
+    android:elevation="3dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="280dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:padding="2dp"
+                android:id="@+id/title"
+                android:text="Catalysts, Explorers and Secret Keepers: Women of SF"
+                android:textAllCaps="false"
+                android:textColor="@color/colorTextDefault"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dp"
+                    android:id="@+id/author"
+                    android:text="By Manatic Games"
+                    android:textColor="@color/Color5"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+
+                    />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_map_icon"
+                />
+
+            <TextView
+                android:id="@+id/location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="2dp"
+                android:text="Los Angeles, CA"
+                android:textColor="@color/colorTextDefault"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+<LinearLayout
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="4dp"
+    android:layout_marginRight="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:background="@color/shineColor5"
+        />
+
+        <LinearLayout
+            android:background="@color/shineColor8"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="13"
+                    android:id="@+id/backed_by"
+                    style="@style/card_text_count"
+                    />
+
+                <TextView
+                    android:layout_below="@+id/backed_by"
+                    android:text="Backed By"
+                    style="@style/card_text_heading"
+                    />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="$8161300"
+                    android:id="@+id/pledged_amount"
+                    style="@style/card_text_count"
+                    />
+
+                <TextView
+                    android:layout_below="@+id/pledged_amount"
+                    android:text="Raised"
+                    style="@style/card_text_heading"
+                    />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="21"
+                    android:id="@+id/days_remaining"
+                    style="@style/card_text_count"
+                    />
+
+                <TextView
+                    android:layout_below="@+id/days_remaining"
+                    android:text="Days Remaining"
+                    style="@style/card_text_heading"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="70"
+                    android:id="@+id/unanswered_count"
+                    style="@style/card_text_count"
+                    android:textColor="@color/colorTextDefaultLight"
+                    />
+
+                <TextView
+                    android:layout_below="@+id/unanswered_count"
+                    android:text="UnAttempted"
+                    android:ellipsize="end"
+                    style="@style/card_text_heading"
+                    android:padding="0dp"
+                    />
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:background="@color/shineColor5"
+        />
+
+
+</LinearLayout>
+
+
+    </FrameLayout>
+</android.support.v7.widget.CardView>

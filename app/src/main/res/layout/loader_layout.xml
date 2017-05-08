@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.pnikosis.materialishprogress.ProgressWheel xmlns:wheel="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/bubble_assessment_progress"
+            style="@style/ProgressLoader"
+            android:layout_gravity="center_horizontal"
+            wheel:matProg_barColor="@color/colorPrimary"
+            wheel:matProg_fillRadius="true"
+            wheel:matProg_progressIndeterminate="true" />
+
+        <ImageView
+            android:visibility="gone"
+            app:srcCompat="@drawable/ic_network_off"
+            android:id="@+id/error_image"
+            style="@style/error_image_view"
+            />
+
+        <TextView
+            android:textColor="@color/colorPrimary"
+            android:text="@string/message_common_loading"
+            android:id="@+id/error_message"
+            style="@style/MessageContText" />
+        <Button
+            style="@style/RetryButton"
+            android:visibility="gone"
+            android:id="@+id/retry_button"
+            android:onClick="retryButtonClick"
+            />
+
+    </LinearLayout>
+    </layout>
